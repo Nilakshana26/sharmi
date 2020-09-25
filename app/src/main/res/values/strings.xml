@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MAD_Final</string>
+    <string name="invalid_email">Enter the valid email</string>
+    <string name="invalid_password">Enter the valid password</string>
+    <string name="invalid_confirmpassword">check ur confirm password</string>
+    <string name="B1">Vadali Guest House</string>
+    <string name="B2">Room Reservation</string>
+    <string name="B3">Customer Name</string>
+    <string name="B4">Phone No</string>
+    <string name="B5">Email</string>
+    <string name="B6">Check_in Date</string>
+    <string name="B7">Check_out Date</string>
+    <string name="B8">No of Rooms</string>
+    <string name="invalid_name">Enter the Valid Name</string>
+    <string name="invalid_phone">Enter the Valid Phone No</string>
+    <string name="invalid_rooms">Check no of rooms</string>
+
+
+</resources>
