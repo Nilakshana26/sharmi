@@ -8,7 +8,6 @@
     tools:context=".pacakage">
 
 
-
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="54dp"
@@ -18,7 +17,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/hhhh" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -28,7 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/lg" />
+        app:srcCompat="@drawable/logout" />
 
     <TextView
     android:id="@+id/textView"
@@ -70,7 +69,7 @@
         app:layout_constraintTop_toBottomOf="@+id/divider" />
 
     <Button
-        android:id="@+id/b1"
+        android:id="@+id/log"
         android:layout_width="56dp"
         android:layout_height="28dp"
         android:layout_marginStart="273dp"
@@ -109,7 +108,7 @@
             android:id="@+id/imageView8"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            app:srcCompat="@drawable/wed" />
+            app:srcCompat="@drawable/day" />
 
         <TextView
             android:id="@+id/textView7"
@@ -158,7 +157,7 @@
             android:id="@+id/imageView9"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            app:srcCompat="@drawable/fami" />
+            app:srcCompat="@drawable/fam" />
 
         <TextView
             android:id="@+id/textView13"

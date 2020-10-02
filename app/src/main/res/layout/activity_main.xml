@@ -15,7 +15,7 @@
         android:layout_marginLeft="60dp"
         android:layout_marginTop="132dp"
         android:ems="10"
-        android:hint="Email"
+        android:hint="Enter Your Email_Address"
         android:inputType="textPersonName"
         android:textColorHint="@android:color/background_light"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +30,7 @@
         android:layout_marginLeft="60dp"
         android:layout_marginTop="25dp"
         android:ems="10"
-        android:hint="Password"
+        android:hint="Enter Your Password"
         android:inputType="textPassword"
         android:textColorHint="@android:color/background_light"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,7 +44,7 @@
         android:layout_marginLeft="60dp"
         android:layout_marginTop="25dp"
         android:ems="10"
-        android:hint="Confirm Password"
+        android:hint="Confirm  Your Password"
         android:inputType="textPassword"
         android:textColorHint="@android:color/background_light"
         app:layout_constraintStart_toStartOf="parent"
@@ -97,7 +97,7 @@
         android:layout_marginTop="6dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/hhhh" />
 
     <TextView
         android:id="@+id/textView"
@@ -130,7 +130,7 @@
         android:layout_marginTop="19dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:srcCompat="@drawable/hm" />
+        app:srcCompat="@drawable/logo" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

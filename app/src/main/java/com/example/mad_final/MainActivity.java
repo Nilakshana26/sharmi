@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i =new Intent(MainActivity.this,Login.class);
+                Toast.makeText(getApplicationContext(),"VADALI LOGIN",Toast.LENGTH_SHORT).show();
                 startActivity(i);
             }
         });
@@ -71,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(getApplicationContext(), "Email is already exits", Toast.LENGTH_SHORT).show();
                         }
                     }
-                    Toast.makeText(getApplicationContext(), "Password do not match", Toast.LENGTH_SHORT).show();
+
 
                 }
                 }

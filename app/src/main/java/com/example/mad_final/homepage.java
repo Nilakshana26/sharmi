@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class homepage extends AppCompatActivity {
     Button b1,b2,b3;
@@ -16,7 +17,7 @@ public class homepage extends AppCompatActivity {
         setContentView(R.layout.activity_homepage);
         b1=(Button)findViewById(R.id.button);
         b2=(Button)findViewById(R.id.button3);
-        b3=(Button)findViewById(R.id.b1);
+        b3=(Button)findViewById(R.id.log);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -35,6 +36,7 @@ public class homepage extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent logout=new Intent(homepage.this,Login.class);
+                Toast.makeText(getApplicationContext(),"LOGOUT",Toast.LENGTH_SHORT).show();
                 startActivity(logout);
             }
         });

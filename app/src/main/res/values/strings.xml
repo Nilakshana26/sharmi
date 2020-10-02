@@ -11,9 +11,35 @@
     <string name="B6">Check_in Date</string>
     <string name="B7">Check_out Date</string>
     <string name="B8">No of Rooms</string>
-    <string name="invalid_name">Enter the Valid Name</string>
-    <string name="invalid_phone">Enter the Valid Phone No</string>
-    <string name="invalid_rooms">Check no of rooms</string>
 
+    <string name="invalid_id">Enter the Valid ID</string>
+    <string name="invalid_type">Fill  the Room Type</string>
+    <string name="invalid_noofrooms">Enter the  No_Of _Rooms</string>
+    <string name="invalid_roomcost">Enter the   Room cost</string>
+    <string name="invalid_facilities">Enter the Room facilities</string>
+    <string name="invalid_name">Enter the Name</string>
+    <string name="invalid_phone">Enter the phonr number</string>
+    <string name="invalid_rooms">Enter the room</string>
+
+    <string name="a1">Employee Name</string>
+    <string name="A2">Vadali Guest house</string>
+    <string name="aa1">Employee Management</string>
+    <string name="AA3">Employee ID</string>
+    <string name="aa4">Photo</string>
+    <string name="aa5">Address</string>
+    <string name="aa6">Telephone No</string>
+    <string name="aa7">Email</string>
+    <string name="aa8">Working Position</string>
+    <string name="aa9">Salary</string>
+    <string name="aa10">Date of Birth</string>
+    <string name="invalid_phoneno">Enter The Valid Phone No</string>
+    <string name="ivalid_Id">Enter the Valid ID</string>
+    <string name="ivalid_address">Enter the Address</string>
+    <string name="invalid_salary">Enter the Salary</string>
+    <string name="ivalid_position">Enter the Working Position</string>
+    <string name="invalid_packageID">Enter the Package ID</string>
+    <string name="invalid_packagename">Enter the Package Nem</string>
+    <string name="invalid_packagecost">Enter the Package Cost</string>
+    <string name="invalid_facilities_pac">Enter the Package Facilities</string>
 
 </resources>

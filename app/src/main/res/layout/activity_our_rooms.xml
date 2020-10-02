@@ -17,7 +17,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/hhhh" />
 
     <TextView
     android:id="@+id/textView"
@@ -84,7 +84,7 @@
             android:id="@+id/imageView8"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            app:srcCompat="@drawable/be1" />
+            app:srcCompat="@drawable/room1" />
 
         <TextView
             android:id="@+id/textView7"
@@ -133,7 +133,7 @@
             android:id="@+id/imageView9"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            app:srcCompat="@drawable/be2" />
+            app:srcCompat="@drawable/room2" />
 
         <TextView
             android:id="@+id/textView13"
@@ -204,10 +204,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/lg" />
+        app:srcCompat="@drawable/logout" />
 
     <Button
-        android:id="@+id/b1"
+        android:id="@+id/log"
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:layout_marginStart="270dp"

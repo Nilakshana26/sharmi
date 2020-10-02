@@ -22,7 +22,7 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            app:srcCompat="@drawable/rm" />
+            app:srcCompat="@drawable/bedroom" />
 
         <Button
             android:id="@+id/button"
@@ -50,7 +50,7 @@
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            app:srcCompat="@drawable/pk" />
+            app:srcCompat="@drawable/p" />
 
         <Button
             android:id="@+id/button3"
@@ -82,7 +82,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/hhhh" />
 
     <TextView
         android:id="@+id/textView"
@@ -106,10 +106,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/lg" />
+        app:srcCompat="@drawable/logout" />
 
     <Button
-        android:id="@+id/b1"
+        android:id="@+id/log"
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:layout_marginStart="265dp"
@@ -119,5 +119,19 @@
         android:textColor="@android:color/background_light"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="251dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="5dp"
+        android:text="Welcome To Vadli "
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,7 +17,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/hhhh" />
 
     <TextView
         android:id="@+id/textView"
@@ -41,10 +41,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/lg" />
+        app:srcCompat="@drawable/logout" />
 
     <Button
-        android:id="@+id/b1"
+        android:id="@+id/log"
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:layout_marginStart="265dp"
@@ -92,7 +92,7 @@
             android:id="@+id/imageView6"
             android:layout_width="match_parent"
             android:layout_height="140dp"
-            app:srcCompat="@drawable/emp" />
+            app:srcCompat="@drawable/employee" />
 
         <Button
             android:id="@+id/emp"
@@ -118,7 +118,7 @@
             android:id="@+id/imageView7"
             android:layout_width="match_parent"
             android:layout_height="140dp"
-            app:srcCompat="@drawable/rm" />
+            app:srcCompat="@drawable/bedroom" />
 
         <Button
             android:id="@+id/empa"
@@ -142,12 +142,12 @@
             android:id="@+id/imageView10"
             android:layout_width="match_parent"
             android:layout_height="140dp"
-            app:srcCompat="@drawable/boo" />
+            app:srcCompat="@drawable/book" />
 
         <Button
             android:id="@+id/book"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="55dp"
             android:background="@android:color/black"
             android:text="Booking"
             android:textColor="@color/cardview_light_background"
@@ -165,12 +165,12 @@
             android:id="@+id/imageView11"
             android:layout_width="match_parent"
             android:layout_height="140dp"
-            app:srcCompat="@drawable/pk" />
+            app:srcCompat="@drawable/p" />
 
         <Button
             android:id="@+id/pac"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="55dp"
             android:background="@android:color/black"
             android:text="PACKAGES"
             android:textColor="@color/cardview_light_background"

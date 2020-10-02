@@ -36,6 +36,7 @@ public class DbHelper extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
         onCreate(sqLiteDatabase);
     }
+
     public boolean insertData(String Room_type, String Name, String Phone_no, String Email, String Check_in, String Check_out, int No_of_rooms) {
 
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
@@ -65,7 +66,7 @@ public class DbHelper extends SQLiteOpenHelper {
         ContentValues contentValues= new ContentValues();
         contentValues.put(COL_1, Room_type);
         contentValues.put(COL_2, Name);
-        contentValues.put(COL_3, Phone_no);
+
         contentValues.put(COL_4, Email);
         contentValues.put(COL_5, Check_in);
         contentValues.put(COL_6, Check_out);

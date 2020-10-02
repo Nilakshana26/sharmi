@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Admin"></activity>
+        <activity android:name=".Admin_booking"></activity>
+        <activity android:name=".AD_Employee" />
+        <activity android:name=".ADroom" />
+        <activity android:name=".Adminpackages" />
+        <activity android:name=".Admin" />
         <activity android:name=".booking" />
         <activity android:name=".packages" />
         <activity android:name=".pacakage" />

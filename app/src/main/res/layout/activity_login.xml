@@ -9,13 +9,13 @@
 
     <EditText
         android:id="@+id/l1"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="388dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="370dp"
         android:ems="10"
-        android:hint="E-mail"
+        android:hint="Enter the E_mail Address"
         android:inputType="textPersonName"
         android:textColor="@android:color/background_dark"
         android:textColorHint="@android:color/background_light"
@@ -24,13 +24,13 @@
 
     <EditText
         android:id="@+id/l2"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginLeft="100dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
         android:layout_marginTop="30dp"
         android:ems="10"
-        android:hint="Password"
+        android:hint="Enter Your Password"
         android:inputType="textPassword"
         android:textColorHint="@android:color/background_light"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,11 +40,24 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:layout_marginLeft="144dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="25dp"
         android:background="@color/design_default_color_primary_dark"
-        android:text="Login"
+        android:text="LOGIN"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l2" />
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="104dp"
+        android:background="@color/design_default_color_primary_dark"
+        android:text="REGISTER"
         android:textColor="@color/cardview_light_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/l2" />
@@ -56,7 +69,7 @@
         android:layout_marginTop="6dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/hhhh" />
 
     <TextView
         android:id="@+id/textView"
@@ -97,12 +110,25 @@
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="143dp"
-        android:layout_height="163dp"
+        android:layout_height="150dp"
         android:layout_marginStart="134dp"
         android:layout_marginLeft="134dp"
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/hm" />
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="215dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="7dp"
+        android:text="OR"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
